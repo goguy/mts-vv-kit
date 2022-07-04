@@ -1,0 +1,76 @@
+
+/*
+Sections
+========
+*/
+
+/**
+ * Constrain images and videos to the parent width and preserve
+ * their instrinsic aspect ratio.
+ *
+ * https://github.com/mozdevs/cssremedy/issues/14
+ */
+
+.text-blueGray-500 {
+  --tw-text-opacity: 1;
+  color: rgba(100, 116, 139, var(--tw-text-opacity));
+}
+
+.bg-blueGray-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(30, 41, 59, var(--tw-bg-opacity));
+}
+  
+.relative {
+position: relative;
+}
+  
+
+.auth-wrapper {
+    display: flex;
+    min-height: calc(var(--vh, 1vh) * 100);
+    width: 100%;
+    flex-basis: 100%;
+    align-items: center;
+  
+    /* common style for both v1 and v2 */
+    a {
+      text-decoration: unset;
+    }
+  
+    /* auth v1 */
+    &.auth-v1 {
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      padding: 1.5rem;
+  
+      .auth-mask-bg {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+      .auth-tree,
+      .auth-tree-3 {
+        position: absolute;
+      }
+      .auth-tree {
+        bottom: 0;
+        left: 0;
+      }
+      .auth-tree-3 {
+        bottom: 0;
+        right: 0;
+      }
+  
+    /* auth card */
+      .auth-inner {
+        width: 28rem;
+        z-index: 1;
+        .auth-card {
+          padding: 0.9375rem 0.875rem;
+        }
+      }
+    }
+  }
+  
