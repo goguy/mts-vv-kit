@@ -32,7 +32,7 @@
                 <p class="text-center white--text text-h3 font-weight-medium">Maintenance Training Simulation</p>
               </v-col>
               <v-col cols="12" >
-                <p class="text-center white--text text-h6">안전한 유지보수 작업을 위한 시뮬레이션 교육</p>
+                <p class="text-center white--text text-h6">안전한 유지보수 작업을 위한 시뮬레이션 교육2</p>
               </v-col>
             </v-row>
           </v-container>          
